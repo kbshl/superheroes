@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"Can I Use",
+		"Clipboard Manager",
+		"ColorPicker",
+		"Colorsublime",
+		"DocBlockr",
+		"Emmet",
+		"Gist",
+		"GitStatus",
+		"HTML-CSS-JS Prettify",
+		"Http Requester",
+		"LiveReload",
+		"Sass",
+		"SASS Build",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeOnSaveBuild",
+		"Terminal",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"WordCount"
+	]
+}

@@ -1,0 +1,31 @@
+# Sets environment variables, such as setting Vim as 
+# the default editor using export EDITOR="vim". It also 
+# increases the amount of history saved, useful for backtracking 
+# over previous commands you've used.
+
+# Prefer DE German and use UTF-8
+export LC_ALL="de_DE.UTF-8"
+export LANG="de_DE"
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768;
+export HISTFILESIZE=$HISTSIZE;
+export HISTCONTROL=ignoredups;
+
+# Make some commands not show up in history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
+
+# Highlight section titles in manual pages
+export LESS_TERMCAP_md="${yellow}";
+
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto";
+
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+
+# set NPM home
+export NPM_CONFIG_PREFIX=$HOME 
