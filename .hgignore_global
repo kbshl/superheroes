@@ -8,6 +8,8 @@ appImagesSource
 *_project.json
 project.json
 .sass-cache
+node_modules
+.*
 
 # Compiled Python files
 *.pyc

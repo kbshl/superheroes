@@ -9,5 +9,12 @@
 	],
 	"open_files_in_new_window": false,
 	"soda_folder_icons": false,
-	"theme": "Soda Light 3.sublime-theme"
+	"theme": "Soda Light 3.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"default_line_ending": "unix",
+	"highlight_modified_tabs": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": false,
+	"preview_on_click": false
 }
