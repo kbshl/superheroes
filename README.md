@@ -1,9 +1,10 @@
 # Installation
 
-1. Install **Ruby** (only on windows)
+1. Install **Ruby** (only for windows users)
 
 2. Change to repo and run **install-dependencies.sh**
 
+<p>&nbsp;</p>
 
 # Initiation
 1. Change to repo and run **init.sh**
@@ -13,10 +14,10 @@
 3. Restart Mac
 
 4. Install Ruby Gems 
-	> **bundle install Gemfile**
+	<pre><code>**bundle install Gemfile**</code></pre>
 
 5. Install Homebrews command line tools 
-	> **brew bundle Brewfile**
+	<pre><code>**brew bundle Brewfile**</code></pre>
 
 6. Install Apps from Homebrew Cask
-	> **brew bundle Caskfile**
+	<pre><code>**brew bundle Caskfile**</code></pre>
