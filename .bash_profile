@@ -1,10 +1,5 @@
 # defaults PATH variable
-#PATH=$PATH:$HOME/bin
-
-
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
-
+# PATH=$PATH:$HOME/bin
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

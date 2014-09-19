@@ -1,7 +1,10 @@
-# Sets environment variables, such as setting Vim as 
-# the default editor using export EDITOR="vim". It also 
-# increases the amount of history saved, useful for backtracking 
+# Sets environment variables, such as setting Vim as
+# the default editor using export EDITOR="vim". It also
+# increases the amount of history saved, useful for backtracking
 # over previous commands you've used.
+
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH";
 
 # Prefer DE German and use UTF-8
 export LC_ALL="de_DE.UTF-8"
@@ -28,4 +31,15 @@ export GREP_OPTIONS="--color=auto";
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # set NPM home
-export NPM_CONFIG_PREFIX=$HOME 
+# export NPM_CONFIG_PREFIX=/usr/local
+export NPM_CONFIG_PREFIX=$HOME
+
+# add NPM HOME to PATH
+# export PATH="$PATH:/usr/local"
+
+# add Android Tools to PATH
+export PATH="$PATH:~/Android-SDK/platform-tools:~/Android-SDK/tools"
+
+# add Android NDK to PATH
+export PATH="$PATH:~/Android-NDK"
+export ANDROID_NDK="~/Android-NDK"
